@@ -18,6 +18,9 @@ if has("gui_running")
     set guioptions=egmrt
 endif
 
-
 " open URL under cursor in browser
 nnoremap gu :!open <cfile><CR>
+
+syntax enable
+set background=dark
+colorscheme solarized
